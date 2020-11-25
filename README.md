@@ -14,11 +14,11 @@ The language is very simple, a quantum logic gate circuit can be formed by a ser
 
 The grammar of the language is as follows; there is only 1 command string per line, where command = "focus"+"gate" and the order is important. Deviating from this grammar will result in a syntax error being displayed.
 
-1: 1X
-2: 2Z
-3: 2P
-4: 3E
-5: 1Y
+1: 1X \n
+2: 2Z \n
+3: 2P \n 
+4: 3E \n 
+5: 1Y \n
 
 Above is an example quantum logic gate circuit, with the numbers on the left denoting line numbers within the text document.
 
