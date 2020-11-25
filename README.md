@@ -1,5 +1,5 @@
 # QuantumAssembly
-This is a single-qubit quantum gate simulator which implements the following single-qubit quantum logic gates: Hadamard, Pauli-X, Pauli-Y, Pauli-Z, Phase and π/8. It takes in a text file which contains a logic circuit writted using the correct syntax as detailed below.
+This is a single-qubit quantum gate simulator which implements the following single-qubit quantum logic gates: Hadamard, Pauli-X, Pauli-Y, Pauli-Z, Phase and π/8. It takes in a text file which contains a logic circuit written using the correct syntax as detailed below.
 
 The language is very simple, a quantum logic gate circuit can be formed by a series of "Commands". Commands will consist of two components; a focus and a gate. A focus is an integer i denoting the ith qubit of the system. A gate is simply a letter representing the application of the associated quantum logic gate. The following table shows the logic gates and their associated letter.
 
